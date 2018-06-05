@@ -1,6 +1,6 @@
 #SuperClass
 class Food
   def self.eating
-    puts "I'm eating its great!"
+    puts "I'm eating, it's great!"
   end
 end

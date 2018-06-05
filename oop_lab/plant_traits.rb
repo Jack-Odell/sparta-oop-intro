@@ -1,5 +1,5 @@
 #Module that defines fruit
-module Fruit
+module PlantTraits
 
   def self.edible
     puts "Some fruits are edible"
@@ -7,13 +7,13 @@ module Fruit
 
   class Colour
     def self.yellow
-      puts "This fruit is yellow"
+      puts "This is yellow"
     end
   end
 
   class Size
     def self.small
-      puts "This fruit is small"
+      puts "This is small"
     end
   end
 end
