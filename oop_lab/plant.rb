@@ -4,12 +4,11 @@ require_relative './food.rb'
 class Plant < Food
   include PlantTraits
 
-  PlantTraits::Colour.yellow
+  def self.color_yellow
+    PlantTraits::Colour.yellow
+  end
 
   def self.eating
     super
   end
 end
-
-
-Plant.eating

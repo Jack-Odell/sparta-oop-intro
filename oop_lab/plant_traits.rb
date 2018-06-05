@@ -2,7 +2,7 @@
 module PlantTraits
 
   def self.edible
-    puts "Some fruits are edible"
+    puts "This is edible!"
   end
 
   class Colour
